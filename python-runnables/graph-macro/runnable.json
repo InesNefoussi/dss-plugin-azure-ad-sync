@@ -23,6 +23,13 @@
             "mandatory": false
         },
         {
+            "name": "user_mapping",
+            "label": "User mapping",
+            "type": "KEY_VALUE_LIST",
+            "description": "In a regexp, use '()' to capture a substring. In a replacement string, use '{0}' to retrieve a captured substring.",
+            "mandatory": false
+        },
+        {
             "name": "groups_dataset",
             "label": "Groups dataset",
             "description": "A dataset containing the list of AAD groups. It should contain these columns: dss_group_name, aad_group_name, dss_profile.",
